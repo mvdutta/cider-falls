@@ -42,7 +42,13 @@ h2 {
     color: rgb(204, 151, 91);
 }
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    color:#151919
+}
+
+img {
+    width: 100%;
+    height: 60%;
 }
 
 .park-services {
@@ -67,6 +73,15 @@ h4 {
     font-family: 'Akshar', sans-serif;
 
   }
+  .card-text h4 {
+    margin-bottom: 5px;
+    margin-top: 8px;
+  }
+  .card-text p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #051e20;
+  }
   
   .main-container {
     display: flex;
@@ -89,7 +104,7 @@ h4 {
 
   .card-right-container {
    border: 2px solid white;
-   padding: 0 40px;
+   padding: 0 25px;
 
   }
   .information-lists {
@@ -113,6 +128,14 @@ h4 {
 
 .italicize {
     font-style: italic;
-    font-weight: bold;
 }
+hr {
+    margin-top: 20px;
+    width: 50%;
+    border: 1px solid  rgb(204, 151, 91);
 
+}
+.connect-text {
+    text-align: center;
+    margin-top: 120px;
+}
