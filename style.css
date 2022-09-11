@@ -31,7 +31,7 @@ body {
 h1 {
     text-align: center;
     font-family: 'Arbutus Slab', serif;
-    color: rgb(204, 151, 91);
+    color: #FF5C40;
 }
 #park-attractions-header {
     font-size: 2.5rem;
@@ -39,11 +39,12 @@ h1 {
 
 h2 {
     font-family: 'Akshar', sans-serif;
-    color: rgb(190, 183, 175);
+    color: rgb(204, 151, 91);
     /* font-style: italic; */
 }
 .park-services {
     margin-top: 5%;
+    font-style: italic;
 }
 .card {
     box-shadow: 0 4px 8px 5px rgba(5, 18, 1, 0.2);
@@ -66,7 +67,7 @@ h2 {
   .main-container {
     display: flex;
     margin-top: 5%;
-    width: 85%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -81,9 +82,6 @@ h2 {
     gap: 5%;   
   }
 
-  .park-information {
-   
-  }
 
   .card-right-container {
    border: 2px solid white;
@@ -91,7 +89,19 @@ h2 {
 
   }
   .information-lists {
+    font-family: 'Akshar', sans-serif;
+    color: rgb(190, 183, 175);
+    font-size: 1.1rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+  .guest-list {
+    list-style-type: none;
+    font-family: 'Akshar', sans-serif;
+    color: rgb(190, 183, 175);
+    font-size: 1.1rem;
+    
+  }
+ .guest-list li:before { 
+    content:  '\1F342' ; margin-left: -20px; margin-right: 10px; } 
