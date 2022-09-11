@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600&family=Arbutus+Slab&display=swap');
 
 body {
-    background-image: url("https://media.istockphoto.com/photos/white-recycle-paper-cardboard-surface-texture-background-picture-id1409373921?b=1&k=20&m=1409373921&s=170667a&w=0&h=8znvVU3KRuObB4jQ3E3qadB9Ccl_N6pm9FSbrSy-feo=");
-    background-color: rgb(236, 236, 233);
+    /* background-image: url("https://media.istockphoto.com/photos/white-recycle-paper-cardboard-surface-texture-background-picture-id1409373921?b=1&k=20&m=1409373921&s=170667a&w=0&h=8znvVU3KRuObB4jQ3E3qadB9Ccl_N6pm9FSbrSy-feo="); */
+    background: linear-gradient(90deg, rgb(14, 18, 15), #254b4e) fixed;
     background-size: cover;
   
 }
@@ -17,14 +17,14 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: rgba(154, 191, 183, 0.4);
+    background-color: rgba(187, 231, 130, 0.1);
     padding: 10px;
     margin: -10px;
 }
 h1 {
     text-align: center;
     font-family: 'Arbutus Slab', serif;
-    color: rgb(53, 36, 13);
+    color: rgb(207, 200, 192);
     margin-left: 2rem;
     font-size: 3rem;
 }
