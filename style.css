@@ -40,8 +40,11 @@ h1 {
 h2 {
     font-family: 'Akshar', sans-serif;
     color: rgb(204, 151, 91);
-    /* font-style: italic; */
 }
+h4 {
+    font-size: 1.2rem;
+}
+
 .park-services {
     margin-top: 5%;
     font-style: italic;
@@ -60,10 +63,11 @@ h2 {
   }
  
   .card-text {
-    padding: 2px 16px;
+    padding: 0 16px;
     font-family: 'Akshar', sans-serif;
+
   }
-   
+  
   .main-container {
     display: flex;
     margin-top: 5%;
@@ -104,4 +108,11 @@ h2 {
     
   }
  .guest-list li:before { 
-    content:  '\1F342' ; margin-left: -20px; margin-right: 10px; } 
+    content:  '\1F342' ; margin-left: -20px; margin-right: 10px; 
+} 
+
+.italicize {
+    font-style: italic;
+    font-weight: bold;
+}
+
