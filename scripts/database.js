@@ -3,69 +3,63 @@ const database = {
         {
             id: 1,
             areaName: "Cider Falls Lodge", 
-            guestIds: [],  
         },
         {
             id: 2,
-            areaName: "Lost Wolf Hiking Trail",
-            guestIds: [],    
+            areaName: "Lost Wolf Hiking Trail",  
         },
         {
             id: 3,
             areaName: "Chamfort River",
-            guestIds: [],    
         },
         {
             id: 4,
             areaName: "Gander River Nature Preserve",
-            guestIds: [],    
         },
         {
             id: 5,
             areaName: "Campgrounds", 
-            guestIds: [],   
         },
         {
             id: 6,
             areaName: "Pine Bluffs Trail",  
-            guestIds: [],  
         },
     ],
     services: [
         {
             id: 1,
             service: "hiking",
-            areaIds: [],
+            areaIds: [2, 4, 6],
         },
         {
             id: 2,
             service: "canoeing",
-            areaIds: [],
+            areaIds: [3],
         },
         {
             id: 3,
             service: "picnicking",
-            areaIds: [],
+            areaIds: [1, 2, 6],
         },
         {
             id: 4,
             service: "lodging",
-            areaIds: [],
+            areaIds: [1, 5],
         },
         {
             id: 5,
-            service: "wall climbing",
-            areaIds: [],
+            service: "rock climbing",
+            areaIds: [2],
         },
         {
             id: 6,
             service: "rafting",
-            areaIds: [],
+            areaIds: [3],
         },
         {
             id: 7,
             service: "fishing",
-            areaIds: [],
+            areaIds: [3, 4],
         },
     ],
     guests: [
