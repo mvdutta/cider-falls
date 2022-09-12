@@ -139,7 +139,7 @@ const database = {
             id: 12,
             firstName: "Lily",
             lastName: "Dutta",
-            areaId: 1,
+            areaId: 5,
         },
         {
             id: 13,

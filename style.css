@@ -64,6 +64,10 @@ img {
     margin-top: 5%;
   }
 
+  .attraction-heading {
+    font-weight: bold;
+  }
+
   .card-img {
     border-radius: 5%;
   }
