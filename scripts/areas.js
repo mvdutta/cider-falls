@@ -16,6 +16,12 @@ document.addEventListener("click", (clickEvent) => {
         guestsInThisArea.push(guest);
       }
     }
-    window.alert(`There are ${guestsInThisArea.length} in this area`)
+    let outputString = ''
+    if (guestsInThisArea.length === 1) {
+        outputString = `There is one guest in this area.`
+    } else {
+        outputString = `There are ${guestsInThisArea.length} guests in this area.`
+    }
+    window.alert(outputString)
   }
 });

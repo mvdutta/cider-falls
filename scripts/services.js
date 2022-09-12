@@ -10,11 +10,11 @@ document.addEventListener("click", (clickEvent) => {
       console.log(itemClicked.id);
       const [, serviceId] = itemClicked.id.split("--");
 
-      const service = services.find(service => service.id === +serviceId)
+      const service = services.find(el => el.id === +serviceId)
       let areaString = ''
       
       for (let areaId of service.areaIds){//looping through the areaIds array in services
-        const area = areas.find(area => area.id === areaId)
+        const area = areas.find(el => el.id === areaId)
         areaString += area.areaName +  ", "
       }
       areaString = areaString.slice(0, -2)
