@@ -1,3 +1,9 @@
-import { database } from "./database.js";
+import { makeGuestHTML } from "./guests.js";
 
-console.log(database)
+const guestHTML = makeGuestHTML()
+
+document.querySelector(".guest-list").innerHTML = guestHTML
+
+
+
+

@@ -1,4 +1,4 @@
-export const database = {
+const database = {
     areas: [
         {
             id: 1,
@@ -137,9 +137,9 @@ export const database = {
         },
         {
             id: 12,
-            firstName: "Casper",
-            lastName: "White",
-            areaId: 2,
+            firstName: "Lily",
+            lastName: "Dutta",
+            areaId: 1,
         },
         {
             id: 13,
@@ -149,4 +149,15 @@ export const database = {
         },
     ]
 
+}
+//write 3 getter functions for exporting
+//area is going through every object in the areas array and making a copy of the object. Map is putting all of the copied objects into a new array and returing it.
+export const getAreas = () => {
+    return database.areas.map((area) => ({ ...area }));
+}
+export const getServices = () => {
+    return database.services.map((service) => ({ ...service }));
+}
+export const getGuests = () => {
+    return database.guests.map((guest) => ({ ...guest }));
 }
